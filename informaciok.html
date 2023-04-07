@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Ági Cukrászdája - Információ/Kapcsolat</title>
+	<link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+	<div class="tartalom text-center visually-hidden-focusable"><a href="#tartalom">Ugrás a<br>tartalomra</a></div>
+	<nav>
+        <div class="navhatter contrainer-fluid py-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="btn navgomb btn-outline-rozsaszin me-2"
+                            href="./index.html">KEZDŐLAP</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="btn navgomb btn-outline-rozsaszin me-2"
+                            href="./etlap.html">ÉTLAP</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="btn navgomb btn-outline-rozsaszin me-2"
+                            href="./munkaim.html">MUNKÁIM</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="btn navgomb btn-outline-rozsaszin me-2 on"
+                            href="./informaciok.html">INFORMÁCIÓK/KAPCSOLAT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+	<section id="tartalom" class="my-3 mx-3">
+		<h1 class="my-3">INFORMÁCIÓK</h1>
+		<article>
+			<h2>ELÉRHETŐSÉGEK:</h2>
+			<p> Cukrászda telefon: 06 1 111 11 11 <br> e-mail: agicukraszda@gmail.com <br> 1165 Budapest, Finomsüti utca 23. <br></p>
+		</article>
+		<h2>NYITVATARTÁS:</h2>
+		<p>K-P: 10:00-18:00 <br> Sz: 12:00-20:00</p> 
+		<aside>(A nyitvatartás változhat.)</aside>
+		<h2>RENDELÉS MENETE:</h2>
+		<p>Rendelni lehet telefonon, és e-mailen keresztül is. A kiszállítás ára 1500 Ft, 20.000 Ft felett ingyenes.</p>
+	</section>
+    <form class="my-3 formbg py-3 px-3" action="mailto:agicukraszda@gmail.com" method="POST" enctype="text/plain">
+        <fieldset class="mb-5">
+			<legend><h2>ŰRLAP</h2></legend>
+			<label for="panasz">Ha volt bármilyen panasza, ide írhatja le. </label>
+			<p></p>
+			<textarea class="urlap" maxlength="1000" cols="20" rows="8" name="panasz" id="panasz" placeholder="Ide írhat:"></textarea>
+		</fieldset>
+		<fieldset class="mb-5">
+			<h2>Milyennek értékelte a kiszolgálást?</h2>
+			<input type="radio" name="kiszolgalas" id="v1" value="1"><label for="v1">1</label>
+			<input type="radio" name="kiszolgalas" id="v2" value="2"><label for="v2">2</label>
+			<input type="radio" name="kiszolgalas" id="v3" value="3"><label for="v3">3</label>
+			<input type="radio" name="kiszolgalas" id="v4" value="4"><label for="v4">4</label>
+			<input type="radio" name="kiszolgalas" id="v5" value="5" checked><label for="v5">5</label>
+		</fieldset>
+		<fieldset class="mb-5">
+			<h2>Milyennek értékelte a sütemények minőségét?</h2>
+			<input type="radio" name="minoseg" id="g1" value="1"><label for="g1">1</label>
+			<input type="radio" name="minoseg" id="g2" value="2"><label for="g2">2</label>
+			<input type="radio" name="minoseg" id="g3" value="3"><label for="g3">3</label>
+			<input type="radio" name="minoseg" id="g4" value="4"><label for="g4">4</label>
+			<input type="radio" name="minoseg" id="g5" value="5" checked><label for="g5">5</label>
+		</fieldset>
+		<fieldset class="mb-5">
+			<h2>Melyik volt a kedvenc sütije, ha fogyasztott az alábbiakból?</h2>
+			<input type="checkbox" id="suti1" name="mez" value="mez">
+			<label for="suti1"> Mézédes menny</label><br>
+			<input type="checkbox" id="suti2" name="banan" value="banan">
+			<label for="suti2"> Banános boldogság</label><br>
+			<input type="checkbox" id="suti3" name="diabetesz" value="diabetesz">
+			<label for="suti3"> Diabétesz diadal </label><br>
+		</fieldset>
+		<fieldset class="mb-5">
+			<h2>Az adataid</h2>
+			<label for="nev"><strong> Név</strong></label><br>
+			<input class="urlap" maxlength="50" type="text" name="nev" id="nev" size="20" required><br>
+			<label for="email"><strong> E-mail </strong></label><br>
+			<input class="urlap" maxlength="100" type="email" name="email" id="email" size="20"><br>
+		</fieldset>
+		<fieldset class="mb-5">
+			<h2>Adatok elküldése</h2>
+			<input class="urlap" type="submit" value="Elküld">
+			<input class="urlap" type="reset" value="Alaphelyzet">
+		</fieldset>
+      </form>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body {
+    background-color: #FFDCEC;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.footertext {
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navhatter {
+    background-color: #FF72A9;
+}
+
+.navgomb {
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.btn-outline-rozsaszin {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    font-weight: bold;
+    border-width: 3px;
+}
+
+.btn-outline-rozsaszin:hover {
+    color: #FF72A9;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.on {
+    color: #FF72A9;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+table,
+td,
+th {
+    border: 3px solid #FF72A9;
+    padding: 10px;
+
+}
+
+.arak {
+    text-align: right;
+}
+
+.kephatter {
+    background-color: #64314a4f;
+    text-align: right;
+}
+
+footer {
+    background-color: #c4a9b5;
+}
+
+a.links:link {
+    color: white;
+}
+
+a.links:visited {
+    color: rgb(206, 205, 205);
+}
+
+a.links:hover {
+    color: #FFDCEC;
+}
+
+a.links:active {
+    color: #FF72A9;
+}
+
+.formbg {
+    background-color: black;
+    /* background-image: url(./Képek/hatter2.png); */
+    background-size: cover;
+    color: white;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+}
+
+video,
+img {
+    border-radius: 12px;
+}
+
+.kepek {
+    border-radius: 12px;
+}
+
+.munka {
+    background-color: black;
+    /* background-image: url(./Képek/hatter2.png); */
+    background-size: cover;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.urlap {
+    border-radius: 8px;
+}
+
+.tartalom {
+    width: 8%;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    background-color: #ff72a86e;
+}
+
+.carousel-item {
+    height: 50%;
+    width: 50%;
+}
+
+.indexfocim {
+    font-variant: small-caps; font-weight: bold; font-family: 'Cookie', cursive;
+}
+
+
+.justify {
+    text-align: justify;
+}
+
+.videon {
+    background-color: white;
+}
+
+.alairas {
+    text-align: right;
+}
